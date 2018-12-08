@@ -10,4 +10,4 @@ RUN apk add --update --no-cache \
         apk del --purge \
         ${BUILD_DEPENDENCIES}
 
-ENTRYPOINT ["graph-easy"]
+ENTRYPOINT ["/bin/bash"]
